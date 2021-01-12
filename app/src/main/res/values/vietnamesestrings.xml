@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mon">Thứ hai </string>
+    <string name="tue">Thứ ba </string>
+    <string name="wed">Thứ tư </string>
+    <string name="thu">Thứ năm </string>
+    <string name="fri">Thứ sáu </string>
+    <string name="sat">Thứ bảy </string>
+    <string name="sun">Chủ nhật </string>
+
+    <string name="cloudy">Có mây </string>
+</resources>

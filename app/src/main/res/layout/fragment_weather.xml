@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weather_fragment"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame"
     tools:context=".WeatherFragment">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
-
+        <!-- TODO: Update blank fragment layout -->
         <TextView
-            android:id="@+id/text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
             android:layout_alignParentLeft="true"
-            android:text="12C"
-            android:textSize="20dp"></TextView>
+            android:text="12C\nCloudy" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/text1"
-            android:text="Cloudy"
-            android:textSize="18dp">
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
-            android:text="Paris"
-            android:textSize="20dp">
-        </TextView>
-    </RelativeLayout>
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:text="Paris" />
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerInParent="true"
-        android:src="@drawable/cloudy"></ImageView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cloudy" />
 
 </RelativeLayout>

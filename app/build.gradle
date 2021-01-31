@@ -7,8 +7,8 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "vn.edu.usth.usthweather"
-        minSdkVersion 16
+        applicationId "vn.edu.usth.weather"
+        minSdkVersion 29
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"

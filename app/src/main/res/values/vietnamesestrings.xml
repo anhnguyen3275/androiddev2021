@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">USTH Weather</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="mon">Thứ hai </string>
     <string name="tue">Thứ ba </string>
     <string name="wed">Thứ tư </string>
